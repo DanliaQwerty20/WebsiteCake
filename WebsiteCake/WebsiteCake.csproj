@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Grpc.Core" Version="2.46.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
       <PrivateAssets>all</PrivateAssets>
@@ -24,6 +25,23 @@
   <ItemGroup>
     <ProjectReference Include="..\WebsiteCake.Logic\WebsiteCake.Logic.csproj" />
     <ProjectReference Include="..\WebsiteCake.Storage\WebsiteCake.Storage.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\1.jpg.png" />
+    <None Include="wwwroot\images\10_2.jpg.png" />
+    <None Include="wwwroot\images\2.jpg.png" />
+    <None Include="wwwroot\images\3.jpg.png" />
+    <None Include="wwwroot\images\4.jpg.png" />
+    <None Include="wwwroot\images\5.jpg.png" />
+    <None Include="wwwroot\images\6.jpg.png" />
+    <None Include="wwwroot\images\7.jpg.png" />
+    <None Include="wwwroot\images\8.jpg.png" />
+    <None Include="wwwroot\images\9.jpg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\Filling\" />
   </ItemGroup>
 
 </Project>

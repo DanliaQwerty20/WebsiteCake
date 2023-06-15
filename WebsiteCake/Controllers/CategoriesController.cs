@@ -16,6 +16,7 @@ namespace WebsiteCake.Controllers
         }
 
         [HttpGet]
+        [HttpGet("/")]
         [Route("categories")]
         public async Task<IList<Сategory>> GetAll() => await _categoryManger.GetAll();
 
